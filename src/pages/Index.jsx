@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from 'components/header/Header';
 import Footer from 'components/footer/Footer';
 import { Link } from 'react-router-dom';
+import { allWords } from './words';
 import { motion } from 'framer-motion';
 import "./Index.scss"
 
@@ -17,6 +18,7 @@ const AnimationTop = {
     }),
 }
 
+console.log(allWords)
 const Index = () => {	
     return (	
 		<motion.div className="index" initial="hidden" whileInView="visible">
@@ -27,7 +29,7 @@ const Index = () => {
 					<motion.div variants={AnimationTop} custom={1} className="index__titles">
 						Привет<span className="blue">!</span> Какое <span className="blue underline">загадал</span> слово<span className="blue">?</span>
 					</motion.div>
-					<input type="text" className="hidden__word" maxlength="25" autofocus="true"/>
+					<input type="text" className="hidden__word" maxLength="25" autoFocus={true}/>
 				</div>
 			</div>
 			<Footer/>
