@@ -26,7 +26,7 @@ const NotFound = () => {
                         <h1>404!</h1>
                         <font>Страница, которую вы ищете, не найдена.</font>
                         <div className="button-wrapper">
-                            <Link to="/AirTickets">
+                            <Link to="/">
                                 <div className="return-button">Вернуться</div>   
                             </Link>
                         </div>                                     

@@ -1,8 +1,8 @@
 {
-  "name": "airtickets",
+  "name": "wordgame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://koffemeow.github.io/AirTickets",
+  "homepage": "https://koffemeow.github.io/Dictionary",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
