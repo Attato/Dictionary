@@ -1,0 +1,20 @@
+@import 'styles/variables.scss';
+
+.body, html{
+    min-height: 100vh;
+}
+
+.wrap{
+    height: calc(100vh - 147px);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+html, body, button, input, select{
+    font-family: RobotoMono;
+} 
+
+html{
+    scroll-behavior: smooth;
+}

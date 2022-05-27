@@ -1,0 +1,68 @@
+@import "styles/variables.scss";
+
+html, body, button, input, select{
+    font-family: RobotoMono;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+.body, html{
+    min-height: 100vh;
+}
+
+.wrap{
+    height: calc(100vh - 147px);
+    padding: 0 16px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+.index{
+    background-color: #1c1c1c;
+    height: 100vh;
+
+    .index__flex__column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 710px;
+        
+        .index__titles{ 
+            width: 100%;
+            text-align: center;
+            margin: 0 0 30px;
+            font-size: 42px;
+            font-weight: 500;
+            color: white;
+            
+            .underline{
+                border-bottom: 5px solid #58a6ff;
+                cursor: pointer;
+            }
+        }  
+        .hidden__word{
+            background-color: #1a1a1a;
+            color: #58a6ff;
+            max-width: inherit;
+            width: 100%;
+            border-radius: 6px;
+            font-size: 42px;
+            padding: 5px 10px;
+        }   
+    }
+}
+
+.blue{
+    color: #58a6ff;
+}
+
+.caret{
+    animation: blink 1s step-end infinite;
+    border-left: 2px solid white;
+    height:20px
+}

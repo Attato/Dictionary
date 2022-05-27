@@ -1,0 +1,12 @@
+@import "styles/variables.scss";
+
+.header{
+    padding: 16px;
+    background-color: #1c1c1c;
+    width: 50vw;
+    
+    .header__logo{
+        font-size: 24px;
+        color: white;
+    }
+}
