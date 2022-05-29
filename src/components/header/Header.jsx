@@ -5,7 +5,7 @@ import './Header.scss';
 const Header = () => {
     return (
         <div className="header">
-            <Link to="/AirTickets" className="header__content"><h1 className="header__logo">Word._Game</h1>  </Link>            
+            <Link to="/AirTickets" className="header__content"><h1 className="header__logo">Word._Palindrome</h1>  </Link>            
         </div>
     )
 }
