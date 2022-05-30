@@ -23,7 +23,7 @@ const NotFound = () => {
             >
                 <div className="flex-height">
                     <motion.div variants={Animation} className="error-wrapper">
-                        <h1>404!</h1>
+                        <h1>404! - Это палиндром :)</h1>
                         <font>Страница, которую вы ищете, не найдена.</font>
                         <div className="button-wrapper">
                             <Link to="/">
